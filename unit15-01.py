@@ -7,15 +7,6 @@
 #15.테이블 형태의 데이터를 쉽게 다루도록 도와주는 pandas 라이브러리
 
 
-# In[ ]:
-
-
-
-
-
-# In[11]:
-
-
 #국가별 하계 및 동계 올림픽 메달 획득 결과표
 import pandas as pd
 df = pd.read_html('https://en.wikipedia.org/wiki/All-time_Olympic_Games_medal_table')
@@ -211,16 +202,6 @@ df2 = df[a]
 df.loc[np.power(df.sub(df2.iloc[0], axis=1), 2).sum(axis=1).sort_values().index[:6]].T.plot()
 
 plt.show()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
 
 
 
