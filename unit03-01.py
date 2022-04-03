@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#3.서울이 가장 더웠던 날은 언제였을까?
+
 # In[1]:
 
 
@@ -60,15 +62,6 @@ for row in data:
         max_temp = row[-1]
 f.close()
 print('기상관측 이래 서울의 최고 기온이 가장 높았던 날은',max_date+'로, ', max_temp,'도 였습니다.')
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#6.기온 데이터를 다양하게 시각화하기
+
 # In[2]:
 
 
@@ -247,10 +249,6 @@ plt.style.use('ggplot') # 그래프 스타일 지정
 plt.figure(figsize=(10,5), dpi=300) #그래프 크기 수정
 plt.boxplot(day, showfliers=False) #아웃라이어 값 생략
 plt.show()
-
-
-# In[ ]:
-
 
 
 

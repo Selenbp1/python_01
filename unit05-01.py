@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#5.내 생일의 기온 변화를 그래프로 그리기
+
 # In[5]:
 
 
@@ -177,9 +179,6 @@ plt.figure(figsize = (12,4))
 plt.plot(high, 'hotpink') #low 리스트에 저장된 값을 hotpink
 plt.plot(low, 'skyblue') #low 리스트에 저장된 값을 skyblue
 plt.show()
-
-
-# In[ ]:
 
 
 

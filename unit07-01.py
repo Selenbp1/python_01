@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#7.우리 동네 인구 구조 시각화하기
+
 # In[15]:
 
 
@@ -129,10 +131,4 @@ plt.rc('font', family='AppleGothic')
 plt.title(name + '지역의 인구 구조')
 plt.plot(result)
 plt.show()
-
-
-# In[ ]:
-
-
-
 

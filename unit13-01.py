@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#13.숫자 데이터를 쉽게 다루게 돕는 numpy 라이브러리
+
 # In[1]:
 
 

@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#9.우리 동네 인구 구조를 파이 차트로 나타내기
+
 # In[4]:
 
 
@@ -109,10 +111,5 @@ plt.axis('equal')
 plt.pie(size, labels=['남','여'], autopct='%.1f%%', colors=color, startangle=90)
 plt.title(name+'지역의 남녀 성별 비율')
 plt.show()
-
-
-# In[ ]:
-
-
 
 

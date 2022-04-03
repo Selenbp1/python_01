@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#기본 그래프 그리기
+
 # In[1]:
 
 
@@ -83,10 +85,5 @@ plt.plot([10,20,30,40],'r.', label='circle')
 plt.plot([40,30,20,10],'g^', label='triangle up')
 plt.legend()#범례표시
 plt.show()
-
-
-# In[ ]:
-
-
 
 

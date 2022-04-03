@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#10.우리 동네 인구 구조를 산점도로 나타내기
+
 # In[3]:
 
 

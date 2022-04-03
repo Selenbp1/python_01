@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#8.인구 구조를 다양한 형태로 시각화하기
+
 # In[2]:
 
 
@@ -113,10 +115,5 @@ plt.barh(range(101), m, label='남성')
 plt.barh(range(101), f, label='여성')
 plt.legend()
 plt.show()
-
-
-# In[ ]:
-
-
 
 
